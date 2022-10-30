@@ -9,7 +9,7 @@ export class PostComponent implements OnInit {
 
   @Input() Title: string = '';
   @Input() Description: string = '';
-  @Input() ColorTitle: string = 'text-black';
+  @Input() ColorTitle: string = 'text-black'
 
   constructor() { }
 
